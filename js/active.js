@@ -137,6 +137,13 @@
         });
     }
 
+        if ($.fn.scrollDown) {
+        browserWindow.scrollDown({
+            scrollSpeed: 1500,
+            scrollText: '<i class="fa fa-angle-down"></i>'
+        });
+    }
+
     // :: 5.0 CounterUp Active Code
     if ($.fn.counterUp) {
         $('.counter').counterUp({

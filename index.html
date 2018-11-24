@@ -10,7 +10,7 @@
 
     <!-- Title -->
     <title>Immersing - Spotify Festival</title>
-
+    <script type="text/javascript" src="./js/script.js"></script>
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.png">
 
@@ -29,14 +29,20 @@
 
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
-
+        <!-- Navbar Area -->
+        <div class="musica-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container-fluid">
                     <!-- Menu -->
                     <nav class="classy-navbar justify-content-between" id="musicaNav">
 
                         <!-- Nav brand -->
                         <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
 
-             
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
 
                         <!-- Menu -->
                         <div class="classy-menu">
@@ -47,11 +53,55 @@
                             </div>
 
                             <!-- Nav Start -->
-    
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="#hero-slides owl-carousel">Início</a></li>
+                                    <li><a href="#section-heading">Sobre</a></li>
+                                    <li><a href="#upcoming-shows-area section-padding-100">Ingressos</a></li>
+                                    <li><a href="#single-music-player"">Artistas</a>
+                                        <div class="megamenu">
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="index.html">Duda Beat</a></li>
+                                                <li><a href="about-us.html">Dua Lipa</a></li>
+                                                <li><a href="concert-tours.html">Alaska Thunderfuck </a></li>
+                                                <li><a href="blog.html">Gloria Groove</a></li>
+                                                <li><a href="contact.html">Billie Eilish</a></li>
+                                                <li><a href="elements.html">Karol Conká</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="index.html">IZA</a></li>
+                                                <li><a href="about-us.html">Jade Baraldo </a></li>
+                                                <li><a href="concert-tours.html">Jão</a></li>
+                                                <li><a href="blog.html">Evanescence </a></li>
+                                                <li><a href="contact.html">Royal Blood </a></li>
+                                                <li><a href="elements.html">Scalene</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="index.html">Selvagens à Procura de Lei</a></li>
+                                                <li><a href="about-us.html">Pitty</a></li>
+                                                <li><a href="concert-tours.html">Rita Lee</a></li>
+                                                <li><a href="blog.html">Silva</a></li>
+                                                <li><a href="contact.html">Caetono Veloso</a></li>
+                                                <li><a href="elements.html">Pabllo Vittar</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="index.html">Tulipa Ruiz</a></li>
+                                                <li><a href="about-us.html">Kid Abelha</a></li>
+                                                <li><a href="concert-tours.html">AliceCaymmi</a></li>
+                                                <li><a href="blog.html">Rubel</a></li>
+                                                <li><a href="contact.html">Cícero</a></li>
+                                                <li><a href="elements.html">Anavitória</a></li>
+                                            </ul>
+                                        </div>
+                                       
+
+                                    </li>
+                                    <li><a href="concert-tours.html">Line Up</a></li>
+                                    <li><a href="contact.html">Estações</a></li>
+                                </ul>
 
                                 <!-- Social Button -->
-                               
-
+                                
                             </div>
                             <!-- Nav End -->
                         </div>
@@ -64,7 +114,7 @@
 
     <!-- ##### Hero Area Start ##### -->
     <section class="hero-area">
-        <div class="hero-slides owl-carousel">
+        <div class="hero-slides owl-carousel" id="hero-slides owl-carousel">
 
             <!-- Single Hero Slide -->
             <div class="single-hero-slide d-flex align-items-center justify-content-center">
@@ -72,11 +122,12 @@
                 <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-1.jpg);"></div>
                 <!-- Slide Content -->
                 <div class="hero-slides-content text-center">
-                    <h2 data-animation="fadeInUp" data-delay="100ms">Pop <span>Pop</span></h2>
-                    <p data-animation="fadeInUp" data-delay="300ms"> </p>
+                    <h2 data-animation="fadeInUp" data-delay="100ms">Immersing in<span>Immersing in</span></h2><br>
+                    <p data-animation="fadeInUp" data-delay="300ms">
+                    Pop</p>
                 </div>
                 <!-- Big Text -->
-                <h2 class="big-text">Pop</h2>
+                <h2 class="big-text">Immersing in</h2>
             </div>
 
             <!-- Single Hero Slide -->
@@ -85,11 +136,11 @@
                 <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-2.jpg);"></div>
                 <!-- Slide Content -->
                 <div class="hero-slides-content text-center">
-                    <h2 data-animation="fadeInUp" data-delay="100ms">Rock <span>Rock</span></h2>
-                    <p data-animation="fadeInUp" data-delay="300ms"> </p>
+                    <h2 data-animation="fadeInUp" data-delay="100ms">Immersing in<span>Immersing in</span></h2><br>
+                    <p data-animation="fadeInUp" data-delay="100ms">Rock</p>
                 </div>
                 <!-- Big Text -->
-                <h2 class="big-text">Rock</h2>
+                <h2 class="big-text">Immersing in</h2>
             </div>
 
             <!-- Single Hero Slide -->
@@ -98,11 +149,12 @@
                 <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-3.jpg);"></div>
                 <!-- Slide Content -->
                 <div class="hero-slides-content text-center">
-                    <h2 data-animation="fadeInUp" data-delay="100ms">MPB <span>MPB</span></h2>
-                    <p data-animation="fadeInUp" data-delay="300ms"> </p>
+                    <h2 data-animation="fadeInUp" data-delay="100ms">Immersing in<span>Immersing in</span></h2><br>
+                    <p data-animation="fadeInUp" data-delay="300ms">MPB</p>
+                    
                 </div>
                 <!-- Big Text -->
-                <h2 class="big-text">MPB</h2>
+                <h2 class="big-text">Immersing in</h2>
             </div>
 
         </div>
@@ -117,7 +169,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading">
+                    <div class="section-heading" id="section-heading">
                         <h2>Immersing</h2>
                         <h6>All the genders. All the songs. All the sensations.</h6>
                     </div>
@@ -145,7 +197,7 @@
     <!-- ##### About Us Area End ##### -->
 
     <!-- ##### Upcoming Shows Area Start ##### -->
-    <div class="upcoming-shows-area section-padding-100">
+    <div class="upcoming-shows-area section-padding-100" id="upcoming-shows-area section-padding-100">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -327,7 +379,7 @@
                     <div class="music-player-slides owl-carousel">
 
                         <!-- Single Music Player -->
-                        <div class="single-music-player">
+                        <div class="single-music-player" id="single-music-player">
                             <img src="img/bg-img/bg-7.jpg" alt="">
 
                             <div class="music-info d-flex justify-content-between">
@@ -421,7 +473,7 @@
                                     <h4>Não Para Não</h4>
                                 </div>
                                 <div class="album-buy-now">
-                                    <a href="#" class="btn musica-btn">Ouça no Spotify</a>
+                                    <a href="https://open.spotify.com/album/7GRhzFj2BulxZBqqOMBdDe" target="_blank" class="btn musica-btn">Ouça no Spotify</a>
                                 </div>
                             </div>
 
@@ -531,25 +583,28 @@
     <!-- ##### Featured Album Area End ##### -->
 
     <!-- ##### Music Artists Area Start ##### -->
-    <div class="musica-music-artists-area d-flex flex-wrap clearfix">
+   <div class="musica-music-artists-area d-flex flex-wrap clearfix">
         <!-- Music Search -->
+    <a href="https://open.spotify.com/album/7GRhzFj2BulxZBqqOMBdDe" target="_blank">     
         <div class="music-search bg-img bg-overlay2 wow fadeInUp" data-wow-delay="300ms" style="background-image: url(img/bg-img/bg-9.jpg);">
+            <a href="https://open.spotify.com/album/7GRhzFj2BulxZBqqOMBdDe" target="_blank">
             <!-- Content -->
             <div class="music-search-content">
                 <h2>Line Up</h2>
                 <h4>Descubra os horários dos seus artistas favoritos</h4>
             </div>
-        </div>
+        </div></a>
 
         <!-- Artists Search -->
         <div class="artists-search bg-img bg-overlay2 wow fadeInUp" data-wow-delay="600ms" style="background-image: url(img/bg-img/bg-10.jpg);">
+            <a href="https://open.spotify.com/album/7GRhzFj2BulxZBqqOMBdDe" target="_blank">
             <!-- Content -->
             <div class="music-search-content">
                 <h2>Estações</h2>
                 <h4>Descubra todas as estações sinestésicas do evento</h4>
             </div>
         </div>
-    </div>
+    </div></a>
     
     <!-- ##### Music Artists Area End ##### -->
 
@@ -564,6 +619,7 @@
     <script src="js/plugins/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    <script src="animate-scroll.js"></script>
 </body>
 
 </html>
